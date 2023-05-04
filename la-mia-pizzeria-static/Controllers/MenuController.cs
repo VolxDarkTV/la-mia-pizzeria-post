@@ -50,15 +50,6 @@ namespace la_mia_pizzeria_static.Controllers
         }
 
 
-        /*public IActionResult Add()
-        {
-            using PizzaContext db = new PizzaContext();
-            Pizza pizza = new Pizza();
-            db.Add(pizza);
-            db.SaveChanges();
-
-            return View();
-        }
-        */
+        
     }
 }
