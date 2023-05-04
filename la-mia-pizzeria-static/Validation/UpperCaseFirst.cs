@@ -10,10 +10,6 @@ namespace la_mia_pizzeria_static.Validation
             {
                 return new ValidationResult("La prima lettera dev'essere maiuscola");
             }
-            else if ((string)value == null) 
-            {
-                return new ValidationResult("");
-            }
             return ValidationResult.Success;
         }
     }
