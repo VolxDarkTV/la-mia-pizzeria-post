@@ -12,7 +12,7 @@ namespace la_mia_pizzeria_static.Models
         [UpperCaseFirst]
         public string Nome { get; set; }
         [Required(ErrorMessage = "Il campo è obbligatorio")] 
-        [MinLength(10, ErrorMessage = "Almeno 10 caratteri")]
+        [FiveWords]
         public string Descrizione { get; set; }
         [Url(ErrorMessage = "URL non valido!")]
         public string? Image { get; set; }
